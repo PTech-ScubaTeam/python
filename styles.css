@@ -1,0 +1,18 @@
+body { background-color: black; font-family: Arial, sans-serif}
+#wordle { width: 40%}
+
+.level-2 { font-size: 1.0em; color: blue }
+.level-3 { font-size: 1.2em; color: red }
+.level-4 { font-size: 1.4em; color: pink }
+.level-5 { font-size: 1.6em; color: green }
+.level-6 { font-size: 1.8em; color: purple }
+.level-7 { font-size: 2.0em; color: white}
+.level-8 { font-size: 2.2em; color: orange}
+.level-9 { font-size: 2.4em; color: silver}
+.level-10 { font-size: 2.6em; color: #6633ff}
+.level-11 { font-size: 2.8em; color: #99CC33}
+span { float: right; padding: 0 4px; vertical-align: top;}
+
+.rotate {
+  writing-mode: tb-rl;
+}
