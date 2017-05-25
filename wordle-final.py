@@ -42,7 +42,8 @@ for w in words:
 f.close()
 #print frequency_dictionary
 
+
 #We could have also only printed out words that appear more than 2 times:
 for word,freq in frequency_dictionary.items():
     if freq > 2:
-        print '<span class="level-' + str(freq) + '">' + word + '</span>'
+        print '<span class="level-' + str(freq) + ' rotate">' + word + '</span>'
